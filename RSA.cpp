@@ -53,17 +53,20 @@ ll modInverse(ll A, ll M)
 
 int main()
 {
-    ll p,q, e, d, n, m = 9;
+    ll p,q, e, d;
+
     cin >> p >> q;
+
+    ll n = p * q;
+    ll message = 9;    
     n = p *q;
     ll tot = totEuler(p,q);
     e =17;
-
     d = modInverse(e, tot);
 
 
 
-    ll c = expbin(m, e, n);
+    ll c = expbin(message, e, n);
     cout << c << endl;
 
 
