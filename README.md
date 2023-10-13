@@ -1,7 +1,7 @@
 Implementando o algoritmo de criptografia RSA pouco a pouco.
 
 
-Calculando
+Calculando inverso multiplicativo  e * d = 1 mod(tot(n))
 
 
 Algoritmo de Euclides
