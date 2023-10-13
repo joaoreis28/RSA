@@ -3,6 +3,8 @@ Implementando o algoritmo de criptografia RSA pouco a pouco.
 
 Calculando inverso multiplicativo  e * d = 1 mod(tot(n))
 
+Pequeno Teorema de Fermat
+
 
 Algoritmo de Euclides
 Propriedades
