@@ -1,7 +1,7 @@
-<h1 align="center">Nome do Projeto</h1>
+<h1 align="center">Implementação de uma versão simplificada do RSA</h1>
 
 ## Descrição do Projeto
-<p align="center">O objetivo desse repositório é implementar o algoritmo de criptografia RSA a partir do estudo de seus conceitos matemáticos. Não é o objetivo escrever um algoritmo ///, mas sim aprender conceitos durante a execuçaõ do projeto. </p>
+<p>O objetivo desse repositório é implementar o algoritmo de criptografia RSA a partir do estudo de seus conceitos matemáticos. Não é o objetivo escrever um algoritmo ///, mas sim aprender conceitos durante a execuçaõ do projeto. </p>
 
 
 Calculando inverso multiplicativo  e * d = 1 mod(tot(n))
