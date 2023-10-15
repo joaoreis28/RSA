@@ -7,7 +7,7 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Calculando Inversos Multiplicativos Modulares](#Sobre)
+   * [Calculando Inversos Multiplicativos Modulares](#Inverso)
      * [Pequeno Teorema de Fermat](#PFT)
      * [Algoritmo de Euclides Estendido](#xEuclides)    
    * [Pequeno Teorema de Fermat](#tabela-de-conteudo)
@@ -62,8 +62,8 @@ ex + ny = 1 (mod n)
 ex = 1 (mod n)
 
 
-#Sobre
-<p name="Sobre"> </p>
+## Calculando Inversos Multiplicativos Modulares
+<p name="Inverso"> Nesse momento nos deparamos com a necessidade de calcular d, que é dado pela expressão e * d = 1 (mod tot(n)) </p>
 Calculando inverso multiplicativo  e * d = 1 mod(tot(n))
 
 x inverso multiplicativo de e mod n
