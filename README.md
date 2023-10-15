@@ -1,13 +1,15 @@
 <h1 align="center">Implementação de uma versão simplificada do RSA</h1>
 
 ## Descrição do Projeto
-<p>O objetivo desse repositório é implementar o algoritmo de criptografia RSA a partir do estudo de seus conceitos matemáticos. Não é o objetivo escrever um algoritmo ///, mas sim aprender conceitos durante a execuçaõ do projeto. </p>
+<p>O objetivo desse repositório é implementar o algoritmo de criptografia RSA a partir do estudo de seus conceitos matemáticos. Não é o objetivo escrever um algoritmo performático ou mesmo para uso em si, mas sim aprender conceitos durante a execução do projeto. </p>
 
 
 Tabela de conteúdos
 =================
 <!--ts-->
    * [Calculando Inversos Multiplicativos Modulares](#Sobre)
+     * [Pequeno Teorema de Fermat](#PFT)
+     * [Algoritmo de Euclides Estendido](#xEuclides)    
    * [Pequeno Teorema de Fermat](#tabela-de-conteudo)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
