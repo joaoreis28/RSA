@@ -7,7 +7,7 @@
 Tabela de conteúdos
 =================
 <!--ts-->
-   * [Sobre](#Sobre)
+   * [Calculando Inversos Multiplicativos Modulares](#Sobre)
    * [Pequeno Teorema de Fermat](#tabela-de-conteudo)
    * [Instalação](#instalacao)
    * [Como usar](#como-usar)
@@ -22,9 +22,6 @@ Tabela de conteúdos
 
 
 
-#Sobre
-<p name="Sobre"> </p>
-Calculando inverso multiplicativo  e * d = 1 mod(tot(n))
 
 Pequeno Teorema de Fermat
 
@@ -61,5 +58,11 @@ ex + ny = gcd(e, n)
 
 ex + ny = 1 (mod n)
 ex = 1 (mod n)
+
+
+#Sobre
+<p name="Sobre"> </p>
+Calculando inverso multiplicativo  e * d = 1 mod(tot(n))
+
 x inverso multiplicativo de e mod n
 y inverso multiplicativo de d mod e
