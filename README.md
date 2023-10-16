@@ -66,8 +66,10 @@ ex = 1 (mod n)
 ## Calculando Inversos Multiplicativos Modulares
 <p name="Inverso"> Nesse momento nos deparamos com a necessidade de calcular <strong> d </strong>, que é dado pela expressão e * d = gcd(e, d) (mod &phi(n)), dado que <strong> e </strong> e <strong> d </strong> são coprimos temos que e * d = 1 mod(tot(n)), ou seja, <em>d</em> é o inverso multiplicativo modular de  <em>e</em>. </p>
 
-# Pequeno Teorema de Fermat
-<p name="PFT"> </p>
+### Pequeno Teorema de Fermat
+<p name="PFT"> O Pequeno Teorema de Fermat, conhecido também pela sua contração PFT, é de autoria do Príncipe dos Amadores, Pierre de Fermat, e como era de praxe em suas contribuições não foi demonstrado por ele, cabendo a Euler tal trabalho. No entanto, no nosso escopo não iremos nos preocupar com demonstrar o teorema, mas sim usá-lo a nosso favor.</p>
+<p>Desse modo, o PFT enuncia que dado um p primo, se o gcd(a,p) = 1, então</p>
+<p align="center" > a^(p-1) congruente 1 (mod p)</p>
 
 Calculando inverso multiplicativo  e * d = 1 mod(tot(n))
 
