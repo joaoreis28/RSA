@@ -36,8 +36,8 @@ Propriedade 2 -gcd(a, b) = gcd(b % a, a)
 
 Estendido
 
-Bezout ax + by = gcd(a, b)
-Propriedade 2 - ax + by = gcd(b % a, a)
+Bezout ax + by = gcd(a, b) 
+Propriedade 2 - ax + by = gcd(b % a, a)  
 gcd(b % a, a) = (b % a)x1 + ay1
 ax + by = (b % a)x1 + ay1
 b = a.q + r
@@ -62,8 +62,12 @@ ex + ny = 1 (mod n)
 ex = 1 (mod n)
 
 
+
 ## Calculando Inversos Multiplicativos Modulares
-<p name="Inverso"> Nesse momento nos deparamos com a necessidade de calcular <strong> d </strong>, que é dado pela expressão e * d = gcd(e, d) (mod &phi(n)), dado que <strong> e </strong> e <strong> d </strong> são coprimos temos que e * d = 1 mod(tot(n)) </p>
+<p name="Inverso"> Nesse momento nos deparamos com a necessidade de calcular <strong> d </strong>, que é dado pela expressão e * d = gcd(e, d) (mod &phi(n)), dado que <strong> e </strong> e <strong> d </strong> são coprimos temos que e * d = 1 mod(tot(n)), ou seja, <em>d</em> é o inverso multiplicativo modular de  <em>e</em>. </p>
+
+# Pequeno Teorema de Fermat
+<p name="PFT"> </p>
 
 Calculando inverso multiplicativo  e * d = 1 mod(tot(n))
 
