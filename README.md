@@ -63,7 +63,7 @@ ex = 1 (mod n)
 
 
 ## Calculando Inversos Multiplicativos Modulares
-<p name="Inverso"> Nesse momento nos deparamos com a necessidade de calcular <strong> d </strong>, que é dado pela expressão e * d = gcd(e, d) (mod tot(n)), dado que <strong> e </strong> e <strong> d </strong> são coprimos temos que e * d = 1 mod(tot(n)) </p>
+<p name="Inverso"> Nesse momento nos deparamos com a necessidade de calcular <strong> d </strong>, que é dado pela expressão e * d = gcd(e, d) (mod &phi(n)), dado que <strong> e </strong> e <strong> d </strong> são coprimos temos que e * d = 1 mod(tot(n)) </p>
 
 Calculando inverso multiplicativo  e * d = 1 mod(tot(n))
 
