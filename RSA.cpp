@@ -61,7 +61,7 @@ int main()
     ll message = 9;    
     n = p *q;
     ll tot = totEuler(p,q);
-    e =17;
+    e =17;   /* e geralmente é 3, 5, 17, 257, 65537, os primeiros numeros de Fermat, sao primos, e em binario so possuem dois bits setados 1*/
     d = modInverse(e, tot);
 
 
