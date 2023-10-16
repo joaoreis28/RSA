@@ -66,6 +66,8 @@ Calculando inverso multiplicativo  e * d = 1 mod(tot(n))
 x inverso multiplicativo de e mod n
 y inverso multiplicativo de d mod e
 
+## Exponenciação Binária
+<p name="Expbin"> Exponenciação Binária, também chamado de exponenciação por elevação ao quadrado, é uma técnica utilizada pra realizar a operação a^n utilizando O(log n) operações. </p>
 
 ## Função Totiente de Euler
 <p name="TotEuler"> Apresentada por Leonhard Euler, a Função Totiente de Euler toma como entrada um número n, e devolve a quantidade de inteiros positivos menores que n que são coprimos com n, isto é não possuem nenhum divisor comum além do próprio 1. No âmbito de nosso porém iremos usufruir de uma propriedade que diz que para um n da forma n = p * q , sendo p e q ambos primos  </p>
@@ -84,6 +86,8 @@ y inverso multiplicativo de d mod e
 <p name="xEuclides">Euclides foi ***********, sua principal contribuição, o livro Os Elementos,  </p>
 
 
+## Linear Diophantine Equation
+<p> Estudar esse topico quando possivel. link https://cp-algorithms.com/algebra/linear-diophantine-equation.html </p>
 
 int convertASCII(string msg)
 {
