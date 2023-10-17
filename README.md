@@ -1,7 +1,7 @@
 <h1 align="center">Implementação de uma versão simplificada do RSA</h1>
 
 ## Descrição do Projeto
-<p>O objetivo desse repositório é implementar o algoritmo de criptografia RSA a partir do estudo de seus conceitos matemáticos. Não é o objetivo escrever um algoritmo performático ou mesmo para uso em si, mas sim aprender conceitos durante a execução do projeto. </p>
+<p>O objetivo desse repositório é implementar o algoritmo de criptografia RSA a partir do estudo de seus conceitos matemáticos. Não é o objetivo escrever um algoritmo performático ou mesmo para uso em si, mas sim aprender conceitos, principalmente com relação a aplicação matemática, durante a execução do projeto. </p>
 
 
 Tabela de conteúdos
@@ -22,10 +22,6 @@ Tabela de conteúdos
    * [Tecnologias](#tecnologias)
 <!--te-->
 
-
-
-
-Pequeno Teorema de Fermat
 
 
 Algoritmo de Euclides
@@ -83,7 +79,8 @@ y inverso multiplicativo de d mod e
 <p align="center" > a^(p-1) congruente 1 (mod p)</p>
 
 ### Algoritmo de Euclides Estendido
-<p name="xEuclides">Euclides foi ***********, sua principal contribuição, o livro Os Elementos,  </p>
+<p name="xEuclides">Euclides  de Alexandria foi um importante matemático grego, tem como sua principal contribuição o livro Os Elementos, é nessa obra que se tem o primeiro registro do hoje conhecido como Algoritmo de Euclides, no entanto é provável que o algoritmo não foi idealizado por Euclides, dado que sua obra compilava conhecimentos de resultados já conhecidos em sua época.  </p>
+<p> O algoritmo possui diversas aplicações como resolver equações diofantinas, construção de frações contínuas e seu uso para nós será para calcular inversos multiplicativos modulares. Para tal iremos passar por algumas propriedades, bem como demonstrar a origem de expressões que aparecem no código. </p>
 
 
 ## Linear Diophantine Equation
