@@ -76,6 +76,7 @@ y inverso multiplicativo de d mod e
 <p name="PFT"> O Pequeno Teorema de Fermat, conhecido também pela sua contração PFT, é de autoria do Príncipe dos Amadores, Pierre de Fermat, e como era de praxe em suas contribuições não foi demonstrado por ele, cabendo a Euler tal trabalho. No entanto, no nosso escopo não iremos nos preocupar com demonstrar o teorema, mas sim usá-lo a nosso favor.</p>
 <p>Desse modo, o PFT enuncia que dado um p primo, se o gcd(a,p) = 1, então</p>
 <p align="center" > a^(p-1) congruente 1 (mod p)</p>
+<p align="center" > a * a^(p-2) congruente 1 (mod p)</p>
 
 ### Algoritmo de Euclides Estendido
 <p name="xEuclides">Euclides  de Alexandria foi um importante matemático grego, tem como sua principal contribuição o livro Os Elementos, é nessa obra que se tem o primeiro registro do hoje conhecido como Algoritmo de Euclides, no entanto é provável que o algoritmo não foi idealizado por Euclides, dado que sua obra compilava conhecimentos de resultados já conhecidos em sua época.  </p>
