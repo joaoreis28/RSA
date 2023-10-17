@@ -24,6 +24,10 @@ Tabela de conteúdos
 
 
 
+
+Pequeno Teorema de Fermat
+
+
 Algoritmo de Euclides
 Propriedades
 Propriedade 1 -gcd(a,0) = |a|
@@ -80,7 +84,9 @@ y inverso multiplicativo de d mod e
 
 ### Algoritmo de Euclides Estendido
 <p name="xEuclides">Euclides  de Alexandria foi um importante matemático grego, tem como sua principal contribuição o livro Os Elementos, é nessa obra que se tem o primeiro registro do hoje conhecido como Algoritmo de Euclides, no entanto é provável que o algoritmo não foi idealizado por Euclides, dado que sua obra compilava conhecimentos de resultados já conhecidos em sua época.  </p>
-<p> O algoritmo possui diversas aplicações como resolver equações diofantinas, construção de frações contínuas e seu uso para nós será para calcular inversos multiplicativos modulares. Para tal iremos passar por algumas propriedades, bem como demonstrar a origem de expressões que aparecem no código. </p>
+<p name= "xEuclides"> O algoritmo possui diversas aplicações como resolver equações diofantinas, construção de frações contínuas e seu uso para nós será para calcular inversos multiplicativos modulares. Para tal iremos passar por algumas propriedades, bem como demonstrar a origem de expressões que aparecem no código. </p>
+<p align="center" > Propriedade 1 - gcd(0,a) = |a|</p>
+<p align="center" > Propriedade 2 - gcd(a,b) = gcd(b%a,a) </p>
 
 
 ## Linear Diophantine Equation
