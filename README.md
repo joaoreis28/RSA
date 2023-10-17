@@ -23,11 +23,6 @@ Tabela de conteúdos
 <!--te-->
 
 
-
-
-Pequeno Teorema de Fermat
-
-
 Algoritmo de Euclides
 Propriedades
 Propriedade 1 -gcd(a,0) = |a|
