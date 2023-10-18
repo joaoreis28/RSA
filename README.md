@@ -93,17 +93,5 @@ y inverso multiplicativo de d mod e
 ## Linear Diophantine Equation
 <p> Estudar esse topico quando possivel. link https://cp-algorithms.com/algebra/linear-diophantine-equation.html </p>
 
-int convertASCII(string msg)
-{
-    string conv =  "";
-    string aux;
-    int a;
-    for(char c: msg)
-    {
-        a = int(c);
-        aux = to_string(a);
-        conv = conv + aux;
-    }
-    int res = stoi(conv);
-}
+
 
