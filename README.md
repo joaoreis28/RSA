@@ -18,7 +18,7 @@ Tabela de conteúdos
       * [Remote files](#remote-files)
       * [Multiple files](#multiple-files)
       * [Combo](#combo)
-   * [Tests](#testes)
+   * [Receba](#testes)
    * [Tecnologias](#tecnologias)
 <!--te-->
 
