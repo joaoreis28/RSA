@@ -50,22 +50,36 @@ ll modInverse(ll A, ll M)
     return res;
 }
 
+ll toASCII(string msg)
+{
+    string conv = "", aux;
+    int a;
+    for(char c:msg)
+    {
+        a = int(c);
+        aux = to_string(a);
+        conv = conv + aux;
+    }
+    ll res = stoi(conv);
+    return res;
+}
 
 int main()
 {
     ll p,q, e, d;
-
+    string s;
     cin >> p >> q;
+    cin >> s;
 
-    ll n = p * q;
-    ll message = 9;    
+    ll n = p * q;   
     n = p *q;
     ll tot = totEuler(p,q);
     e =17;   /* e geralmente é 3, 5, 17, 257, 65537, os primeiros numeros de Fermat, sao primos, e em binario so possuem dois bits setados 1*/
     d = modInverse(e, tot);
+    ll message = toASCII(s);
 
-
-
+   
+    
     ll c = expbin(message, e, n);
     cout << c << endl;
 
@@ -73,3 +87,5 @@ int main()
 
     return 0;
 }
+
+
