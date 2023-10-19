@@ -78,10 +78,11 @@ y inverso multiplicativo de d mod e
 
 
 ### Pequeno Teorema de Fermat
-<p name="PFT">A primeira solução que iremos abordar será O Pequeno Teorema de Fermat, conhecido também pela sua contração PFT, é de autoria do Príncipe dos Amadores, Pierre de Fermat, e como era de praxe em suas contribuições não foi demonstrado por ele, cabendo a Euler tal trabalho. No entanto, no nosso escopo não iremos nos preocupar com demonstrar o teorema, mas sim usá-lo a nosso favor.</p>
-<p>Desse modo, o PFT enuncia que dado um p primo, se o gcd(a,p) = 1, então</p>
+<p name="PFT">A primeira opção que iremos abordar será O Pequeno Teorema de Fermat, conhecido também pela sua contração PFT, como seu nome sugere foi pela primeira vez enunciado pelo também conhecido como Príncipe dos Amadores, Pierre de Fermat. Dado que Fermat tinha a matemática como hobby, era magistrado por carreira, Pierre não possuía um apego profundo a rigidez matemática, deixando muitos de seus resultados sem demonstrações. Nesse contexto, coube a Euler comprovar tal resultado em seu artigo entitulado "Theorematum Quorundam ad Números Primos Spectantium Demonstratio". No escopo de nossa aventura não iremos nos preocupar com demonstrar o teorema, mas sim usar suas implicações. 
+<p>Desse modo, o PFT enuncia que dado um primo p, se o gcd(a,p) = 1, então</p>
 <p align="center" > a^(p-1) congruente 1 (mod p)</p>
-<p>Parece simples, conseguimos nosso resultado com apenas uma operação de multiplicação, no entanto, como dito anteriormente o PFT só pode ser aplicado a quando a operação é no contexto de mod p , com p primo. E no âmbito da nossa aplicação não podemos garantir que o phi(n) será sempre primo, inviabilizando a utilização do Pequeno Teorema de Fermat</p>
+<p align="center" > a * a^(p-2) congruente 1 (mod p)</p>
+<p>Disso se segue que o inverso multiplicativo de a (mod p) é o a^(p-2), parece simples, conseguimos nosso resultado de forma bem direta, no entanto, como dito anteriormente o PFT só pode ser aplicado quando a operação é no contexto de mod p, com p primo. E no âmbito da nossa aplicação não podemos garantir que o phi(n) será sempre primo, inviabilizando a utilização do Pequeno Teorema de Fermat</p>
 
 ### Algoritmo de Euclides Estendido
 <p name="xEuclides">Euclides  de Alexandria foi um importante matemático grego, tem como sua principal contribuição o livro Os Elementos, é nessa obra que se tem o primeiro registro do hoje conhecido como Algoritmo de Euclides, no entanto é provável que o algoritmo não foi idealizado por Euclides, dado que sua obra compilava conhecimentos de resultados já conhecidos em sua época.  </p>
