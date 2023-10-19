@@ -68,7 +68,7 @@ x inverso multiplicativo de e mod n
 y inverso multiplicativo de d mod e
 
 ## Exponenciação Binária
-<p name="Expbin"> Iremos começar nossa ****** com a Exponenciação Binária, também chamado de exponenciação por elevação ao quadrado, é uma técnica simples usada pra realizar a operação a^n utilizando O(log n) operações. É amplamente utilizada para operar cálculos de forma mais eficiente com exponenciações de números grandes, multiplicação de matrizes, exponenciações modulares, etc. </p>
+<p name="Expbin"> Iremos começar nossa ****** com a Exponenciação Binária, também chamado de exponenciação por elevação ao quadrado, é uma técnica simples usada pra realizar a operação a<sup>n</sup> utilizando O(log n) operações. É amplamente utilizada para operar cálculos de forma mais eficiente com exponenciações de números grandes, multiplicação de matrizes, exponenciações modulares, etc. </p>
 
 
 ## Função Totiente de Euler
@@ -82,8 +82,8 @@ y inverso multiplicativo de d mod e
 ### Pequeno Teorema de Fermat
 <p name="PFT">A primeira opção que iremos abordar será O Pequeno Teorema de Fermat, conhecido também pela sua contração PFT, como seu nome sugere foi pela primeira vez enunciado pelo também conhecido como Príncipe dos Amadores, Pierre de Fermat. Dado que Fermat tinha a matemática como hobby, era magistrado por carreira, Pierre não possuía um apego profundo a rigidez matemática, deixando muitos de seus resultados sem demonstrações. Nesse contexto, coube a Euler comprovar tal resultado em seu artigo entitulado "Theorematum Quorundam ad Números Primos Spectantium Demonstratio". No escopo de nossa aventura não iremos nos preocupar com demonstrar o teorema, mas sim usar suas implicações. 
 <p>Desse modo, o PFT enuncia que dado um primo p, se o gcd(a,p) = 1, então</p>
-<p align="center" > a^(p-1) congruente 1 (mod p)</p>
-<p align="center" > a * a^(p-2) congruente 1 (mod p)</p>
+<p align="center" > a<sup>p-1</sup> congruente 1 (mod p)</p>
+<p align="center" > a * a<sup>p-2</sup> congruente 1 (mod p)</p>
 <p>Disso se segue que o inverso multiplicativo de a (mod p) é o a^(p-2), parece simples, conseguimos nosso resultado de forma bem direta, no entanto, como dito anteriormente o PFT só pode ser aplicado quando a operação é no contexto de mod p, com p primo. E no âmbito da nossa aplicação não podemos garantir que o phi(n) será sempre primo, inviabilizando a utilização do Pequeno Teorema de Fermat</p>
 
 ### Algoritmo de Euclides Estendido
