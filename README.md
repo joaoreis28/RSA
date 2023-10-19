@@ -7,6 +7,7 @@
 Tabela de conteúdos
 =================
 <!--ts-->
+   * [Exponenciação Binária](#Expbin)
    * [Calculando Inversos Multiplicativos Modulares](#Inverso)
      * [Pequeno Teorema de Fermat](#PFT)
      * [Algoritmo de Euclides Estendido](#xEuclides)    
@@ -67,7 +68,8 @@ x inverso multiplicativo de e mod n
 y inverso multiplicativo de d mod e
 
 ## Exponenciação Binária
-<p name="Expbin"> Exponenciação Binária, também chamado de exponenciação por elevação ao quadrado, é uma técnica utilizada pra realizar a operação a^n utilizando O(log n) operações. </p>
+<p name="Expbin"> Iremos começar nossa ****** com a Exponenciação Binária, também chamado de exponenciação por elevação ao quadrado, é uma técnica simples usada pra realizar a operação a^n utilizando O(log n) operações. É amplamente utilizada para operar cálculos de forma mais eficiente com exponenciações de números grandes, multiplicação de matrizes, exponenciações modulares, etc. </p>
+
 
 ## Função Totiente de Euler
 <p name="TotEuler"> Apresentada por Leonhard Euler, a Função Totiente de Euler toma como entrada um número n, e devolve a quantidade de inteiros positivos menores que n que são coprimos com n, isto é não possuem nenhum divisor comum além do próprio 1. No âmbito de nosso porém iremos usufruir de uma propriedade que diz que para um n da forma n = p * q , sendo p e q ambos primos  </p>
