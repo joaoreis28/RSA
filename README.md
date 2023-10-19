@@ -73,12 +73,12 @@ y inverso multiplicativo de d mod e
 <p name="TotEuler"> Apresentada por Leonhard Euler, a Função Totiente de Euler toma como entrada um número n, e devolve a quantidade de inteiros positivos menores que n que são coprimos com n, isto é não possuem nenhum divisor comum além do próprio 1. No âmbito de nosso porém iremos usufruir de uma propriedade que diz que para um n da forma n = p * q , sendo p e q ambos primos  </p>
 
 ## Calculando Inversos Multiplicativos Modulares
-<p name="Inverso"> Nesse momento nos deparamos com a necessidade de calcular <strong> d </strong>, que é dado pela expressão e * d = gcd(e, d) (mod &phi(n)), dado que <strong> e </strong> e <strong> d </strong> são coprimos temos que e * d = 1 mod(tot(n)), ou seja, <em>d</em> é o inverso multiplicativo modular de  <em>e</em>. </p>
+<p name="Inverso"> Nesse momento nos deparamos com a necessidade de calcular <strong> d </strong>, que é dado pela expressão e * d = gcd(e, d) (mod &phi(n)), dado que por definição <strong> e </strong> e <strong> d </strong> são coprimos, temos que e * d = 1 mod(tot(n)), ou seja, <em>d</em> é o inverso multiplicativo modular de  <em>e</em>. </p>
 <p>Com o objetivo traçado temos duas opções de caminho, com o Pequeno Teorema de Fermat ou o Algoritmo de Euclides Estendido, a seguir iremos dar breves explicações das duas ferramentas, bem como elucidar suas vantagens, fraquezas e nossa escolha com base em tais circunstâncias. </p>
 
 
 ### Pequeno Teorema de Fermat
-<p name="PFT"> O Pequeno Teorema de Fermat, conhecido também pela sua contração PFT, é de autoria do Príncipe dos Amadores, Pierre de Fermat, e como era de praxe em suas contribuições não foi demonstrado por ele, cabendo a Euler tal trabalho. No entanto, no nosso escopo não iremos nos preocupar com demonstrar o teorema, mas sim usá-lo a nosso favor.</p>
+<p name="PFT">A primeira solução que iremos abordar será O Pequeno Teorema de Fermat, conhecido também pela sua contração PFT, é de autoria do Príncipe dos Amadores, Pierre de Fermat, e como era de praxe em suas contribuições não foi demonstrado por ele, cabendo a Euler tal trabalho. No entanto, no nosso escopo não iremos nos preocupar com demonstrar o teorema, mas sim usá-lo a nosso favor.</p>
 <p>Desse modo, o PFT enuncia que dado um p primo, se o gcd(a,p) = 1, então</p>
 <p align="center" > a^(p-1) congruente 1 (mod p)</p>
 <p>Parece simples, conseguimos nosso resultado com apenas uma operação de multiplicação, no entanto, como dito anteriormente o PFT só pode ser aplicado a quando a operação é no contexto de mod p , com p primo. E no âmbito da nossa aplicação não podemos garantir que o phi(n) será sempre primo, inviabilizando a utilização do Pequeno Teorema de Fermat</p>
