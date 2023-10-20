@@ -33,7 +33,7 @@ Algoritmo de Euclides
 Propriedades
 Propriedade 1 -gcd(a,0) = |a|
 Propriedade 2 -gcd(a, b) = gcd(b % a, a)
-
+ 
 
 Estendido
 
