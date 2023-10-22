@@ -20,7 +20,7 @@ Tabela de conteúdos
       * [Multiple files](#multiple-files)
       * [Combo](#combo)
    * [Receba](#testes)
-   * [Tecnologias](#tecnologias) terminar implementar
+   * [Tecnologias](#tecnologias) terminar 
 <!--te-->
 
 
