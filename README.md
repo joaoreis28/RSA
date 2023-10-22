@@ -86,7 +86,9 @@ y inverso multiplicativo de d mod e
 <p align="center" > <strong> a<sup>p-1</sup> ≡ 1 (mod p) </strong></p>
 <p align="center" > <strong> a * a<sup>p-2</sup> ≡ 1 (mod p) </strong> </p>
 <p>Disso se segue que o inverso multiplicativo de a (mod p) é o a<sup>p-2</sup>, parece simples, conseguimos nosso resultado de forma bem direta, no entanto, como dito anteriormente o PFT só pode ser aplicado quando a operação é no contexto de mod p, com p primo. E no âmbito da nossa aplicação não podemos garantir que o phi(n) será sempre primo, inviabilizando a utilização do Pequeno Teorema de Fermat</p>
-![Pierre](https://github.com/joaoreis28/RSA/blob/master/Pierre_de_Fermat.jpg?raw=true)
+<h1 align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="Pierre_de_Fermat.jpg" />
+</h1>
 
 ### Algoritmo de Euclides Estendido
 <p name="xEuclides">Euclides  de Alexandria foi um importante matemático grego, tem como sua principal contribuição o livro Os Elementos, é nessa obra que se tem o primeiro registro do hoje conhecido como Algoritmo de Euclides, no entanto é provável que o algoritmo não foi idealizado por Euclides, dado que sua obra compilava conhecimentos de resultados já conhecidos em sua época.  </p>
