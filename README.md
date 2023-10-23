@@ -70,7 +70,7 @@ y inverso multiplicativo de d mod e
 ## Exponenciação Binária
 <p name="Expbin"> Iremos começar nossa ****** com a Exponenciação Binária, também chamado de exponenciação por elevação ao quadrado, é uma técnica simples usada pra realizar a operação a<sup>n</sup> utilizando O(log n) operações. É amplamente utilizada para operar cálculos de forma mais eficiente com exponenciações de números grandes, multiplicação de matrizes, exponenciações modulares, etc.  φ , ϕ </p>
 <h1 align="center">
-  <img src="images/Expbin.png" />
+  <img src="images/ExpBin.png" />
 </h1>
  
 ## Função Totiente de Euler
