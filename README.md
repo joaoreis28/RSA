@@ -74,6 +74,9 @@ y inverso multiplicativo de d mod e
 ## Função Totiente de Euler
 <p name="TotEuler"> Apresentada por Leonhard Euler, a Função Totiente de Euler toma como entrada um número n, e devolve a quantidade de inteiros positivos menores que n que são coprimos com n, isto é não possuem nenhum divisor comum além do próprio 1. No âmbito de nosso porém iremos usufruir de uma propriedade que diz que para um n da forma n = p * q , sendo p e q ambos primos a função totiente de euler é dada por:</p>
 <p align="center" > <strong> φ(n) = (p-1).(q-1) </strong></p>
+<h1 align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="images/Leonhard_Euler.jpg" />
+</h1>
 
 ## Calculando Inversos Multiplicativos Modulares
 <p name="Inverso"> Nesse momento nos deparamos com a necessidade de calcular <strong> d </strong>, que é dado pela expressão e * d = gcd(e, d) (mod φ(n)), dado que por definição <strong> e </strong> e <strong> d </strong> são coprimos, temos que e * d = 1 mod(φ(n)), ou seja, <em>d</em> é o inverso multiplicativo modular de  <em>e</em>. </p>
