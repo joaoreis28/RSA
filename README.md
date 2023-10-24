@@ -100,6 +100,9 @@ y inverso multiplicativo de d mod e
 <p name= "xEuclides"> O algoritmo possui diversas aplicações como resolver equações diofantinas, construção de frações contínuas e seu uso para nós será para calcular inversos multiplicativos modulares. Para tal iremos passar por algumas propriedades, bem como demonstrar a origem de expressões que aparecem no código. </p>
 <p align="center" > Propriedade 1 - gcd(0,a) = |a|</p>
 <p align="center" > Propriedade 2 - gcd(a,b) = gcd(b%a,a) </p>
+<h1 align="center">
+  <img src="images/Euclides.jpg" />
+</h1>
 
 
 ## Linear Diophantine Equation
