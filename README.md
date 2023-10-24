@@ -102,7 +102,7 @@ y inverso multiplicativo de d mod e
 <p align="center" > Propriedade 2 - gcd(a,b) = gcd(b%a,a) </p>
 <h1 align="center">
   <img src="images/Euclides.jpg" />
-</h1>
+</h1>  
 
 
 ## Linear Diophantine Equation
