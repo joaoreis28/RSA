@@ -77,7 +77,7 @@ y inverso multiplicativo de d mod e
 <p name="TotEuler"> Apresentada por Leonhard Euler, a Função Totiente de Euler toma como entrada um número n, e devolve a quantidade de inteiros positivos menores que n que são coprimos com n, isto é não possuem nenhum divisor comum além do próprio 1. Para números significativamente grandes  φ(n) pode ser relativamente custoso de se calcular,  No âmbito de nosso projeto porém, iremos usufruir de uma propriedade que diz que para um n da forma n = p * q , sendo p e q ambos primos a função totiente de euler é dada por:</p>
 <p align="center" > <strong> φ(n) = (p-1).(q-1) </strong></p>
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="images/Leonhard_Euler.jpg" />
+  <img alt="NextLevelWeek" title="#Euler" src="images/Leonhard_Euler.jpg" />
 </h1>
 
 ## Calculando Inversos Multiplicativos Modulares
