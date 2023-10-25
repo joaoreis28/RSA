@@ -92,7 +92,7 @@ y inverso multiplicativo de d mod e
 <p align="center" > <strong> a * a<sup>p-2</sup> ≡ 1 (mod p) </strong> </p>
 <p>Disso se segue que o inverso multiplicativo de a (mod p) é o a<sup>p-2</sup>, parece simples, conseguimos nosso resultado de forma bem direta, no entanto, como dito anteriormente o PFT só pode ser aplicado quando a operação é no contexto de mod p, com p primo. E no âmbito da nossa aplicação não podemos garantir que o phi(n) será sempre primo, inviabilizando a utilização do Pequeno Teorema de Fermat</p>
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#Fermat" src="images/Pierre_de_Fermat.jpg" />
+  <img alt="Fermat" title="#Fermat" src="images/Pierre_de_Fermat.jpg" />
 </h1>
 
 ### Algoritmo de Euclides Estendido
