@@ -82,7 +82,7 @@ y inverso multiplicativo de d mod e
 
 ## Calculando Inversos Multiplicativos Modulares
 <p name="Inverso"> Nesse momento nos deparamos com a necessidade de calcular <strong> d </strong>, que é dado pela expressão e * d = gcd(e, d) (mod φ(n)), dado que por definição <strong> e </strong> e <strong> d </strong> são coprimos, temos que e * d = 1 mod(φ(n)), ou seja, <em>d</em> é o inverso multiplicativo modular de  <em>e</em>. </p>
-<p>Com o objetivo traçado temos duas opções de caminho, com o Pequeno Teorema de Fermat ou o Algoritmo de Euclides Estendido, a seguir iremos dar breves explicações das duas ferramentas, bem como elucidar suas vantagens, fraquezas e nossa escolha com base em tais circunstâncias. </p>
+<p>Com o objetivo traçado temos duas opções de caminho, com o Pequeno Teorema de Fermat ou o Algoritmo de Euclides Estendido, a seguir iremos dar breves explicações das duas ferramentas, bem como elucidar suas vantagens, fraquezas e nossa escolha com base em tais circunstâncias. </p>  
 
 
 ### Pequeno Teorema de Fermat
