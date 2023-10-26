@@ -39,7 +39,7 @@ Estendido
 
 Bezout ax + by = gcd(a, b) 
 Propriedade 2 - ax + by = gcd(b % a, a)  
-gcd(b % a, a) = (b % a)x1 + ay1
+gcd(b % a, a) = (b % a)x1 +  ay1
 ax + by = (b % a)x1 + ay1
 b = a.q + r
 13 = 6*2 + 1
