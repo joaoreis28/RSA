@@ -19,8 +19,7 @@ Tabela de conteúdos
       * [Remote files](#remote-files)
       * [Multiple files](#multiple-files)
       * [Combo](#combo)
-   * [Receba](#testes)
-   * [Tecnologias](#tecnologias) terminar 
+   
 <!--te-->
 
 
