@@ -60,7 +60,7 @@ ll toASCII(string msg)
         aux = to_string(a);
         conv = conv + aux;
     }
-    ll res = stoi(conv); # estourando o limite do stoi , encon
+    ll res = stoi(conv); # estourando o limite do stoi , encontrar solucao
     return res;
 }
 
