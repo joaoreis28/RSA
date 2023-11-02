@@ -18,7 +18,7 @@ Tabela de conteúdos
       * [Local files](#local-files)
       * [Remote files](#remote-files)
       * [Multiple files](#multiple-files)
-      * [Combo](#combo)
+      
    
 <!--te-->
 
