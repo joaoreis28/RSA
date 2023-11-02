@@ -8,7 +8,7 @@ Tabela de conteúdos
 =================  
 <!--ts-->  
    * [Exponenciação Binária](#Expbin) 
-   * [Calculando Inversos Multiplicativos Modulares](#Inverso)
+   * [Calculando Inversos Multiplicativos  Modulares](#Inverso)
      * [Pequeno Teorema de Fermat](#PFT)
      * [Algoritmo de Euclides Estendido](#xEuclides)      
    * [Exponenciação Binária](#Expbin)   
