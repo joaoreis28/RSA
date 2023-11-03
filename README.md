@@ -25,7 +25,7 @@ Tabela de conteúdos
 
 
 
-Pequeno Teorema de Ferma
+Pequeno Teorema de Fermat
 
 
 Algoritmo de Euclides
