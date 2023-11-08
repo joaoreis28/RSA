@@ -3,6 +3,7 @@ using namespace std;
 
 typedef long long ll;
 
+ll x, y;
 
 ll expbin(ll a, ll exp, ll n)
 {
