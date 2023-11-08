@@ -20,6 +20,16 @@ int totEuler(int a, int b)
     return (a -1) * (b - 1);
 }
 
+ll euclid(ll a, ll b) {
+  if (b == 0) { x = 1; y = 0; return a; }
+  ll d = euclid(b, a % b);
+  ll _x = x;
+  x = y;
+  y = _x - y * (a / b);
+  return d;
+}
+
+
 
 ll gcdExtended(ll a, ll b, ll* x, ll* y)
 {
