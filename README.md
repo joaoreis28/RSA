@@ -11,7 +11,7 @@ Tabela de conteúdos
    * [Calculando Inversos Multiplicativos  Modulares](#Inverso)
      * [Pequeno Teorema de Fermat](#PFT)
      * [Algoritmo de Euclides Estendido](#xEuclides)      
-   * [Exponenciação Binária](#Expbin)   
+   * [Exponenciação Binária](#Expbin)    
    * [Função Totiente de Euler](#TotEuler)
    * [Como usar](#como-usar)  
       * [Local files](#local-files)
