@@ -101,7 +101,7 @@ y inverso multiplicativo de d mod e
 <h1 align="center">
   <img src="images/Euclides.jpg" />
 </h1>  
-
+<p> Euclides é mais conhecido como Euclides de Alexandria, um matemático grego que viveu por volta do século III a.C. Ele é frequentemente referido como "Pai da Geometria" devido ao seu trabalho seminal, "Os Elementos", uma compilação abrangente de conhecimentos matemáticos da época. Essa obra influente abordou tópicos como geometria euclidiana e teoria dos números, estabelecendo os fundamentos para muitos desenvolvimentos subsequentes na matemática. Euclides também contribuiu para a compreensão da teoria dos números e da geometria, deixando um legado duradouro que influenciou o pensamento matemático por séculos. Sua abordagem metódica e lógica na apresentação de teoremas e provas em "Os Elementos" estabeleceu um padrão para a exposição rigorosa na matemática, tornando-o uma figura central na história dessa disciplina.</p>
 
 ## Linear Diophantine Equation
 <p> Estudar esse topico quando possivel. link https://cp-algorithms.com/algebra/linear-diophantine-equation.html </p>
