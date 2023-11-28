@@ -6,7 +6,7 @@
  
 Tabela de conteúdos      
 =================    
-<!--ts-->     
+<!--ts-->      
    * [Exponenciação Binária](#Expbin)   
    * [Calculando Inversos Multiplicativos  Modulares](#Inverso)
      * [Pequeno Teorema de Fermat](#PFT)
