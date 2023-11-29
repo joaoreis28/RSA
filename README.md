@@ -33,7 +33,7 @@ Propriedade 1 -gcd(a,0) = |a|
 Propriedade 2 -gcd(a, b) = gcd(b % a, a)
  
 
-Estendido
+
 
 Bezout ax + by = gcd(a, b) 😈😈🦛🦛🦛🦛🦛🦛🦛🦛
 Propriedade 2 - ax + by = gcd(b % a, a)  
