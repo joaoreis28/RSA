@@ -35,7 +35,7 @@ Propriedade 2 -gcd(a, b) = gcd(b % a, a)
 
 
 
-Bezout ax + by = gcd(a, b) 😈😈🦛🦛🦛🦛🦛🦛🦛🦛
+Bezout ax + by = gcd(a, b) 😈😈
 Propriedade 2 - ax + by = gcd(b % a, a)  
 gcd(b % a, a) = (b % a)x1 +  ay1
 ax + by = (b % a)x1 + ay1
