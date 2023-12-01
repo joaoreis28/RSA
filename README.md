@@ -49,18 +49,7 @@ ax + by = ay1 -a*[b/a]x1 + bx1
 ax + by = a(y1 -[b/a]x1) + bx1
 
 
-Bezout ax + by = gcd(a, b) 
-Propriedade 2 - ax + by = gcd(b % a, a)  
-gcd(b % a, a) = (b % a)x1 +  ay1
-ax + by = (b % a)x1 + ay1
-b = a.q + r
-13 = 6*2 + 1
-13 = 6*(13//6) + 1
-ax + by = (b % a)x1 + ay1 
-ax + by = (b - a*[b/a])x1 + ay1
-ax + by = bx1 -a*[b/a]x1 + ay1
-ax + by = ay1 -a*[b/a]x1 + bx1
-ax + by = a(y1 -[b/a]x1) + bx1
+
 
 
 x = y1 -[b/a]x1
