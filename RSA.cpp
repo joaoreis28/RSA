@@ -1,103 +1,70 @@
-#include <bits/stdc++.h>
-using namespace std;
-
+#include "RSA.h"
+#include "encriptar.h"
 typedef long long ll;
 
-ll x, y;
-
-ll expbin(ll a, ll exp, ll n)
+RSA::RSA(int p, int q, int r):p(0), q(0), m(0), phi(0), r(0), public_key(nullptr), private_key(nullptr)
 {
-    if(exp == 0)
-        return 1;
-    if(exp & 1)
-         return (a * expbin(a, exp - 1, n)) % n;
-    ll b = expbin(a, exp/2, n);
-    return  (b * b) % n;
-    
+    setParameters(p, q, r);
+    calcKeys();
 }
 
-int totEuler(int a, int b)
+
+void RSA::setParameters(int p, int q, int r)
 {
-    return (a -1) * (b - 1);
-}
-
-ll euclid(ll a, ll b) {
-  if (b == 0) { x = 1; y = 0; return a; }
-  ll d = euclid(b, a % b);
-  ll _x = x;
-  x = y;
-  y = _x - y * (a / b);
-  return d;
+    this->p = p;
+    this->q = q;
+    this->r = r;
+    this->m = p * q;
+    this->phi = (p - 1) * (q -1);
 }
 
 
 
-ll gcdExtended(ll a, ll b, ll* x, ll* y)
+void RSA::calcKeys()
 {
-
-	if (a == 0) {
-		*x = 0, *y = 1;
-		return b;
-	}
-	
-	ll x1, y1;
-	ll gcd = gcdExtended(b % a, a, &x1, &y1);
-	
-	*x = y1 - (b / a) * x1;
-	*y = x1;
-
-	return gcd;
+    calcPublicKey();
+    calcPrivateKey();
 }
 
 
-ll modInverse(ll A, ll M)
+
+
+
+void RSA::calcPrivateKey()
 {
-	ll x, y;
-	ll g = gcdExtended(A, M, &x, &y);
-	
-		int res = (x % M + M) % M;
-		
-	
-    return res;
+    int a = this->phi;
+    int b = this->r;
+    int x = 0, y = 0;    
+
+    utils::Euclid(a, b, x, y );
+
+    int d = ((y % phi) + phi) % phi;
+
+    this->private_key = new PrivateKey{d, this->p, this->q };
+
 }
 
-ll toASCII(string msg)
+
+void RSA::calcPublicKey()
 {
-    string conv = "", aux;
-    int a;
-    for(char c:msg)
-    {
-        a = int(c);
-        aux = to_string(a);
-        conv = conv + aux;
-    }
-    ll res = stoi(conv); # estourando o limite do stoi , encontrar solucao
-    return res;
+  this->public_key = new PublicKey{ this->r, this->m };
 }
 
-int main()
+
+const PublicKey* RSA::getPublicKey() const
 {
-    ll p,q, e, d;
-    string s;
-    cin >> p >> q;
-    cin >> s;
+  return public_key;
+}
 
-    ll n = p * q;   
-    n = p *q;
-    ll tot = totEuler(p,q);
-    e =17;   /* e geralmente é 3, 5, 17, 257, 65537, os primeiros numeros de Fermat, sao primos, e em binario so possuem dois bits setados 1*/
-	euclid(e,tot);
-    d = ((x % tot) + tot) % tot;
-    ll message = toASCII(s);
-
-   
-    
-    ll c = expbin(message, e, n);
-    cout << c << endl;
-
-
-
-    return 0;
+const PrivateKey* RSA::getPrivateKey() const
+{
+  return private_key;
 }
 
 
+int RSA::encrypt(char c)
+{
+  encriptar enc(public_key);
+  int out = enc.encriptarChar(c);
+  return out;
+}
